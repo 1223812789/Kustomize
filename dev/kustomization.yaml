@@ -6,7 +6,7 @@ resources:
 images:
 - name: ghcr.io/1223812789/spring-petclinic
   newName: ghcr.io/1223812789/spring-petclinic
-  newTag: cea1d09bec9a23d4ace83a4740c6bd720a79d915
+  newTag: 716975c58e28b62f91d7ab9cd003a38d140d3329
 patches:
 - path: replicas.yaml
   target:
