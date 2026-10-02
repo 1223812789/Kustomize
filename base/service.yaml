@@ -4,7 +4,8 @@ metadata:
   name: petclinic-service
 spec:
   selector:
-    app: petclinic
+    app.kubernetes.io/instance: petclinic
+    app.kubernetes.io/name: petclinic
   ports:
     - name: http
       port: 8080
