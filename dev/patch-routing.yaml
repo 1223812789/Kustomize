@@ -26,7 +26,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: petclinic-ingress
+  name: petclinic
 spec:
   rules:
     - host: localhost
